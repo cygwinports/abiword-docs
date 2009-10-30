@@ -5,9 +5,9 @@ similar to Microsoft Word. It is suitable for almost all word processing
 tasks.
 
 Build requirements:
-  abiword-2.6.8-1
-  cygport-0.9.6-1
-  gawk-3.1.6-2
+  abiword-2.8.0-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
   make-3.81-2
   sed-4.1.5-2
 
@@ -20,245 +20,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack abiword-docs-2.6.8-X-src.tar.bz2
+  unpack abiword-docs-2.8.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./abiword-docs-2.6.8-X.cygport all
+  cygport ./abiword-docs-2.8.0-X.cygport all
 
 This will create:
-  /usr/src/abiword-docs-2.6.8-X-src.tar.bz2
-  /usr/src/abiword-docs-2.6.8-X.tar.bz2
+  /usr/src/abiword-docs-2.8.0-X-src.tar.bz2
+  /usr/src/abiword-docs-2.8.0-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/share/abiword-2.6/help/en-US/aboutos.html
-  /usr/share/abiword-2.6/help/en-US/azindex.html
-  /usr/share/abiword-2.6/help/en-US/credits.html
-  /usr/share/abiword-2.6/help/en-US/fdl.html
-  /usr/share/abiword-2.6/help/en-US/histyle.css
-  /usr/share/abiword-2.6/help/en-US/howto/howtobidi.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtodocs.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtodocument.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtoexporthtml.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtohistory.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtolists.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtomailmerge.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtonormaltemplate.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtoprefs.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtorevisions.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtotables.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtotranslation.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtoweb.html
-  /usr/share/abiword-2.6/help/en-US/howto/howtoword.html
-  /usr/share/abiword-2.6/help/en-US/howto/index.html
-  /usr/share/abiword-2.6/help/en-US/index.html
-  /usr/share/abiword-2.6/help/en-US/info/index.html
-  /usr/share/abiword-2.6/help/en-US/info/infoformats.html
-  /usr/share/abiword-2.6/help/en-US/info/infomsdi.html
-  /usr/share/abiword-2.6/help/en-US/info/inforequirements.html
-  /usr/share/abiword-2.6/help/en-US/info/infosections.html
-  /usr/share/abiword-2.6/help/en-US/info/infospelling.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogbackgroundcolor.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogbookmark.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogbreak.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogchangecase.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogcolumns.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogdateandtime.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogfield.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogfind.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogfont.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogformatfootnotes.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogformatheaderfooters.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogformattable.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogformattextbox.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialoggoto.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialoghtmlexport.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialoghyperlink.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogimageproperties.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialoginserttable.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialoglanguage.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialoglists.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogmailmerge.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogmailmergetool.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogmarkrevisions.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogmergecells.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogmodifystyle.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialognew.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialognewstyle.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogopenlinux.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogpagenumbers.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogpagesetup.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogparagraph.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogplugins.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogpreferences.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogprint.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogproperties.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogreplace.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogsavelinux.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogscreencolor.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogselectrevision.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogspelling.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogstyles.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogsymbol.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogtabs.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogviewdocument.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogwordcount.html
-  /usr/share/abiword-2.6/help/en-US/interface/dialogzoom.html
-  /usr/share/abiword-2.6/help/en-US/interface/index.html
-  /usr/share/abiword-2.6/help/en-US/interface/menucontextual.html
-  /usr/share/abiword-2.6/help/en-US/interface/menuedit.html
-  /usr/share/abiword-2.6/help/en-US/interface/menufile.html
-  /usr/share/abiword-2.6/help/en-US/interface/menuformat.html
-  /usr/share/abiword-2.6/help/en-US/interface/menuhelp.html
-  /usr/share/abiword-2.6/help/en-US/interface/menuinsert.html
-  /usr/share/abiword-2.6/help/en-US/interface/menutable.html
-  /usr/share/abiword-2.6/help/en-US/interface/menutools.html
-  /usr/share/abiword-2.6/help/en-US/interface/menuview.html
-  /usr/share/abiword-2.6/help/en-US/interface/menuwindow.html
-  /usr/share/abiword-2.6/help/en-US/interface/rulers.html
-  /usr/share/abiword-2.6/help/en-US/interface/toolbarextra.html
-  /usr/share/abiword-2.6/help/en-US/interface/toolbarformatting.html
-  /usr/share/abiword-2.6/help/en-US/interface/toolbarstandard.html
-  /usr/share/abiword-2.6/help/en-US/interface/toolbartable.html
-  /usr/share/abiword-2.6/help/en-US/interface/workspace.html
-  /usr/share/abiword-2.6/help/en-US/introduction.html
-  /usr/share/abiword-2.6/help/en-US/plugins/index.html
-  /usr/share/abiword-2.6/help/en-US/problems/index.html
-  /usr/share/abiword-2.6/help/en-US/problems/problemsbugs.html
-  /usr/share/abiword-2.6/help/en-US/problems/problemsfaq.html
-  /usr/share/abiword-2.6/help/en-US/problems/problemshelp.html
-  /usr/share/abiword-2.6/help/en-US/search.html
-  /usr/share/abiword-2.6/help/en-US/style.css
-  /usr/share/abiword-2.6/help/en-US/tutorial/index.html
-  /usr/share/abiword-2.6/help/en-US/tutorial/intro.html
-  /usr/share/abiword-2.6/help/en-US/tutorial/window.html
-  /usr/share/abiword-2.6/help/fr-FR/aboutos.html
-  /usr/share/abiword-2.6/help/fr-FR/credits.html
-  /usr/share/abiword-2.6/help/fr-FR/fdl.html
-  /usr/share/abiword-2.6/help/fr-FR/histyle.css
-  /usr/share/abiword-2.6/help/fr-FR/howto/howtonormaltemplate.html
-  /usr/share/abiword-2.6/help/fr-FR/howto/howtotables.html
-  /usr/share/abiword-2.6/help/fr-FR/howto/howtoweb.html
-  /usr/share/abiword-2.6/help/fr-FR/howto/howtoword.html
-  /usr/share/abiword-2.6/help/fr-FR/howto/index.html
-  /usr/share/abiword-2.6/help/fr-FR/index.html
-  /usr/share/abiword-2.6/help/fr-FR/info/index.html
-  /usr/share/abiword-2.6/help/fr-FR/info/infoformats.html
-  /usr/share/abiword-2.6/help/fr-FR/info/infomsdi.html
-  /usr/share/abiword-2.6/help/fr-FR/info/inforequirements.html
-  /usr/share/abiword-2.6/help/fr-FR/info/infosections.html
-  /usr/share/abiword-2.6/help/fr-FR/info/infospelling.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogactivatewindow.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogbackgroundcolor.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogbookmark.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogbreak.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogchangecase.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogcolumns.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogdateandtime.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogfield.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogfind.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogfont.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogformatheaderfooters.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialoggoto.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialoghyperlink.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogimageproperties.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialoglanguage.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialoglists.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogmodifystyle.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialognew.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialognewstyle.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogopenlinux.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogpagenumbers.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogpagesetup.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogparagraph.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogplugins.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogpreferences.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogreplace.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogsavelinux.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogscreencolor.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogspelling.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogstyles.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogsymbol.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogtabs.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogwordcount.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/dialogzoom.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/index.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menucontextual.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuedit.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menufile.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuformat.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuhelp.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuinsert.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menutools.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuview.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuweb.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/menuwindow.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/rulers.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/toolbarextra.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/toolbarformatting.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/toolbarstandard.html
-  /usr/share/abiword-2.6/help/fr-FR/interface/workspace.html
-  /usr/share/abiword-2.6/help/fr-FR/introduction.html
-  /usr/share/abiword-2.6/help/fr-FR/plugins/index.html
-  /usr/share/abiword-2.6/help/fr-FR/style.css
-  /usr/share/abiword-2.6/help/fr-FR/tutorial/index.html
-  /usr/share/abiword-2.6/help/pl-PL/aboutos.html
-  /usr/share/abiword-2.6/help/pl-PL/credits.html
-  /usr/share/abiword-2.6/help/pl-PL/fdl.html
-  /usr/share/abiword-2.6/help/pl-PL/fdl_pl.html
-  /usr/share/abiword-2.6/help/pl-PL/histyle.css
-  /usr/share/abiword-2.6/help/pl-PL/howto/howtonormaltemplate.html
-  /usr/share/abiword-2.6/help/pl-PL/howto/howtotables.html
-  /usr/share/abiword-2.6/help/pl-PL/howto/howtoweb.html
-  /usr/share/abiword-2.6/help/pl-PL/howto/howtoword.html
-  /usr/share/abiword-2.6/help/pl-PL/howto/index.html
-  /usr/share/abiword-2.6/help/pl-PL/index.html
-  /usr/share/abiword-2.6/help/pl-PL/info/index.html
-  /usr/share/abiword-2.6/help/pl-PL/info/infoformats.html
-  /usr/share/abiword-2.6/help/pl-PL/info/infomsdi.html
-  /usr/share/abiword-2.6/help/pl-PL/info/inforequirements.html
-  /usr/share/abiword-2.6/help/pl-PL/info/infosections.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogactivatewindow.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogbookmark.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogfont.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogformatheaderfooters.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialoggoto.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialoghyperlink.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogmodifystyle.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialognew.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogparagraph.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogwordcount.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/dialogzoom.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/index.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menucontextual.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menuedit.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menufile.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menuformat.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menuhelp.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menuinsert.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menutools.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menuweb.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/menuwindow.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/rulers.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/toolbarextra.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/toolbarformatting.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/toolbarstandard.html
-  /usr/share/abiword-2.6/help/pl-PL/interface/workspace.html
-  /usr/share/abiword-2.6/help/pl-PL/introduction.html
-  /usr/share/abiword-2.6/help/pl-PL/plugins/index.html
-  /usr/share/abiword-2.6/help/pl-PL/problems/index.html
-  /usr/share/abiword-2.6/help/pl-PL/problems/problemsbugs.html
-  /usr/share/abiword-2.6/help/pl-PL/problems/problemsfaq.html
-  /usr/share/abiword-2.6/help/pl-PL/problems/problemshelp.html
-  /usr/share/abiword-2.6/help/pl-PL/style.css
-  /usr/share/abiword-2.6/help/pl-PL/tutorial/index.html
-
-------------------
-
 Port Notes:
+
+----- version 2.8.0-1 -----
+Version bump for AbiWord 2.8.
 
 ----- version 2.6.8-1 -----
 Initial release for Cygwin 1.7.
