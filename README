@@ -5,7 +5,7 @@ similar to Microsoft Word. It is suitable for almost all word processing
 tasks.
 
 Build requirements:
-  abiword-2.8.0-1
+  abiword-2.8.1-1
   cygport-0.9.10-1
   gawk-3.1.7-1
   make-3.81-2
@@ -20,21 +20,21 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack abiword-docs-2.8.0-X-src.tar.bz2
+  unpack abiword-docs-2.8.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./abiword-docs-2.8.0-X.cygport all
+  cygport ./abiword-docs-2.8.1-X.cygport all
 
 This will create:
-  /usr/src/abiword-docs-2.8.0-X-src.tar.bz2
-  /usr/src/abiword-docs-2.8.0-X.tar.bz2
+  /usr/src/abiword-docs-2.8.1-X-src.tar.bz2
+  /usr/src/abiword-docs-2.8.1-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
 
------ version 2.8.0-1 -----
+----- version 2.8.1-1 -----
 Version bump for AbiWord 2.8.
 
 ----- version 2.6.8-1 -----
