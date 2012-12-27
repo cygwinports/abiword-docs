@@ -1,0 +1,18 @@
+inherit xvfb
+
+NAME="abiword-docs"
+VERSION=2.9.4
+RELEASE=1
+CATEGORY="Editors GNOME Publishing"
+SUMMARY="GNOME word processor (help documentation)"
+DESCRIPTION="AbiWord is a powerful, free and cross platform word processing
+program similar to Microsoft Word. It is suitable for almost all word
+processing tasks."
+HOMEPAGE="http://www.abisource.com/"
+SRC_URI="http://www.abisource.com/downloads/abiword/${PV}/source/${P}.tar.gz"
+
+src_compile() {
+	cd ${B}
+	cygconf
+	xvfb_run cygmake
+}
