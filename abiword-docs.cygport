@@ -1,7 +1,7 @@
 inherit xvfb
 
 NAME="abiword-docs"
-VERSION=3.0.0
+VERSION=3.0.1
 RELEASE=1
 CATEGORY="Editors Publishing"
 SUMMARY="GNOME word processor (help documentation)"
@@ -10,6 +10,8 @@ program similar to Microsoft Word. It is suitable for almost all word
 processing tasks."
 HOMEPAGE="http://www.abisource.com/"
 SRC_URI="http://www.abisource.com/downloads/abiword/${VERSION}/source/${NAME}-${VERSION}.tar.gz"
+
+ARCH=noarch
 
 src_compile() {
 	cd ${B}
